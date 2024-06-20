@@ -1,0 +1,1844 @@
+/* body {
+    width: 100%;
+    margin: 0;
+    background-color: #5a8962;
+}
+
+
+main {
+    width: 100%;
+    height: fit-content; 
+}
+
+
+.push {
+    width: 16rem;
+    height: 3rem;
+    background-color: #37359E;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+input{
+
+     
+     width: 11rem;
+     padding: 0.5rem;
+     background-color: #F0FDBE;
+     font-size: x-large;
+     color: #A3AC81;
+     font-family: 'Alegreya Sans SC', sans-serif;
+     border-style: none;
+     text-align: center;
+}
+
+.a1{
+
+display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: end;
+   
+}
+
+
+h1 {
+     
+    width: max-content;
+    height: 9rem;
+    color: #F0FDBE;
+    text-align: end;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: lighter;
+    font-size: 9rem;
+    
+}
+
+
+h2 {
+    z-index: 42;
+    position: relative;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 9rem;
+    color: #37359E;
+}
+
+.para {
+    z-index: 42;
+    position: relative;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.plus {
+    height: 2rem;
+    width: 8rem;
+    padding-bottom: 0.5rem;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    margin-bottom: 8rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+    font-size: xx-large;
+    color: #F0FDBE;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.lifeStyle {
+    height: fit-content;
+    width: fit-content;
+    z-index: 69;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+    text-orientation: sideways;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #37359E;
+    
+}
+
+
+
+
+
+.btnMoreProduct {
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDescriptionDiv1 {
+    height: 1rem;
+    width: 15rem;
+}
+
+.btnDescriptionDiv2 {
+    height: 1rem;
+    width: 15rem;
+}
+
+.btnDescription {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Advent Pro', sans-serif;
+    color: #F0FDBE;
+}
+
+.moreProductDiv {
+    height: fit-content;
+    width: fit-content;
+}
+
+.moreProduct {
+    height: 4rem;
+    width: 12rem;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    border-radius: 20px;
+    font-size: xx-large;
+    color: #F0FDBE;
+    font-weight: 500;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.40);
+}
+
+
+.ipara {
+    z-index: 42;
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-position: 50%;
+    background-size: 110vh;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ipara:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #00FD2B30;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+
+img {
+
+    width: 90vw;
+    height: 20vw;
+}
+
+
+
+.first-picture {
+
+     width: 100%;
+     height: 80vh;
+     background-position: center;
+     background-size: 100%;
+     position: relative;
+     display: flex;
+     background-repeat: no-repeat;
+     background-size: 150vw;
+    
+}
+
+header {
+
+    background-color:#38543B;
+    width: 100%;
+    height: 10vh ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.logo-nav {
+  
+    background-size: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+    margin-right: 35rem;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 30vw;
+    height: fit-content;
+    margin-left: 15rem;
+ }
+
+
+
+
+a {
+
+     text-decoration: none;
+     color: white;
+     font-family: 'Advent Pro', sans-serif;
+
+}
+
+
+
+
+.contenaire{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+article{
+    
+    margin: 1.4%;
+    width: 18rem;
+    height: 14rem;
+    border-radius: 29px;
+    border: solid black 9px;
+    box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.r1{
+
+    background-image: url(dossierimgsneacker/converse-sneakers-pro-leather-hi-170240c-blanc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.r2{
+    background-image: url(dossierimgsneacker/puma-clyde-vintage.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.r3{
+    background-image: url(dossierimgsneacker/baskets-club-c-revenge-vintage-cuir-ch-reebok-chalk-royal.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.r4{
+    background-image: url(dossierimgsneacker/png-transparent-air-force-air-jordan-nike-sneakers-white-jordan-white-outdoor-shoe-sneakers.png);
+    background-size: 185%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.r5{
+    background-image: url(dossierimgsneacker/nike\ jordan.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.r6{
+    background-image: url(dossierimgsneacker/flowerMountain.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.r7{
+    background-image: url(dossierimgsneacker/convrse.jpg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r8{
+    background-image: url(dossierimgsneacker/nike\ vintage.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.major_art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    height: fit-content;
+    margin: 1%;
+}
+
+
+
+.d1 {
+
+    transform: rotate(90deg);
+    width: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33rem;
+}
+
+
+.prod {
+    width: 18rem;
+    height: 29rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grand{
+    width: 40rem;
+    height: 15vw;
+    background-image: url(dossierimgsneacker/addidas.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.grand2{
+    width: 40rem;
+    height: 15vw;
+    background-image: url(dossierimgsneacker/birkenstockBlue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.r9 {
+    background-image: url(./dossierimgsneacker/veja.jpg);
+    background-size: 198%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r10 {
+
+    background-image:url(./dossierimgsneacker/golq.webp);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.r11 {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./dossierimgsneacker/puma-vintage.jpg);
+    background-size: 193%;
+}
+
+.r12 {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./dossierimgsneacker/nike\ jordan.webp);
+    background-size: 110%;
+}
+
+
+
+
+p{
+
+  
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+.d2 {
+    width: 100%;
+    height: 26rem;
+    background-image: url(./dossierimgsneacker/prairie.jpg);
+     background-position: center;
+     display: flex;
+}
+
+
+.please{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-size: 100%;
+}
+
+.l2{
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    
+}
+
+
+.e1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    
+}
+
+
+.e2 {
+
+    width: 4vw;
+    height: 10vh;
+    margin: 10px;
+    border-radius: 51% 49% 48% 52% / 49% 48% 52% 51% ;
+
+}
+
+
+h4 {
+
+    width: 13vw;
+    height: 24vh;
+    font-size:medium;
+}
+
+.t1 {
+
+   
+    width: 25vw;
+    height: 28vh;
+}
+
+.tired {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    padding: 20px;   
+
+}
+
+.k1 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.k2 {
+
+    width: 5vw;
+    height: 10vh;
+     padding: 20px;
+}
+
+
+.divImagePara {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.divGrandPara{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.divMoyenPara{
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divPetitPara{
+    height: fit-content;
+    width: 25%;
+}
+
+.petitParaTitre {
+    height: fit-content;
+    width: fit-content;
+}
+
+.n1 {
+    height: fit-content;
+    width: 100%;
+    color: white;
+    padding: 0;
+}
+
+.n2 {
+    height: fit-content;
+    width: fit-content;
+    list-style: none;
+}
+
+
+footer{
+
+
+    width: 100%;
+}
+
+
+
+.pTitre {
+    width: fit-content;
+    height: fit-content;
+    font-size: 4rem;
+    font-family: 'Advent Pro', sans-serif;
+    margin: 1rem;
+}
+
+.pPara1 {
+    width: 60%;
+    height: fit-content;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.pPara2 {
+    width: 60%;
+    height: fit-content;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    width: 100%;
+    height: 110px;
+    }
+    .footer-link-column {
+    display: flex;
+    flex-direction: column;
+    }
+    .footer-link-column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+    }
+   
+
+    .product-content {
+        
+        height: 30%;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.40);
+        border-radius: 0px 0px 20px 20px;
+       } */
+
+
+       /* @media (max-width: 768px) {
+        .footer-container {
+        grid-template-columns: 1fr;
+        }
+        }
+
+
+
+.des2 , .des1{
+    margin-left: 1vw;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+}
+
+.gold {
+    color: yellow;
+    margin-left: 1vw;
+}
+
+.descriptionContainer {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.40);
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media only screen and (max-width: 1010px) {
+    header {
+    height: 7rem;
+}
+
+    .recherche {
+        margin: 3rem 3rem 0rem 3rem;
+    }
+
+    nav {
+        width: 45vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-self: center;
+    }
+
+    .fond {
+        width: 100%;
+        height: fit-content;
+        background-size: cover;
+    }
+    
+    .titre {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    h1 {
+        width: fit-content;
+        height: fit-content;
+        color: #F0FDBE;
+        text-align: start;
+        font-size: 5rem;
+        margin: 1rem;
+    }
+
+    .if {
+        width: 100%;
+        height: 60vh;
+        background-position: center;
+        background-size: 100%;
+        position: relative;
+        display: flex;
+    }
+    
+    .if:after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: #00FD2B30;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    h2 {
+        height: fit-content;
+        z-index: 42;
+        position: relative;
+        margin: 0;
+        font-family: 'Advent Pro', sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        color: #37359E;
+    }
+    
+    .para {
+        height: 100%;
+        width: 100%;
+    }
+
+    .lifeStyle {
+        color: red;
+        font-size: 3rem;
+    }
+     .plus, .moreInfo {
+        height: 0;
+        width: 0;
+        color: transparent;
+     }
+
+    .ipara {
+        z-index: 42;
+        position: relative;
+        height: 100%;
+        width: 35%;
+        background-position: 50%;
+        background-size: 110vh;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .containerProduit {
+        height: 60vh;
+        width: 35%;
+        margin: 1rem 0;
+    }
+
+
+    
+    .sect2ArticleImageHorizontal2 {
+        height: 0;
+        width: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .sect2ArticleImageHorizontal1, .sect2ArticleImageVertical1, .sect2ArticleImageVertical2  {
+        height: 60vh;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border: solid;
+        border-width: 0.5rem;
+        border-radius: 25px;
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.40);
+        margin: 0.5rem 0;
+    }
+
+    
+.sect2ArticleImageHorizontal1:after, .sect2ArticleImageVertical1:after, .sect2ArticleImageVertical2:after{
+    content: "";
+    height: 60vh;
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.sect2ArticleImageHorizontal2:after {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+}
+
+.intersectionImage{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around ;
+    }
+    
+    .sect2ImageHorizontal1, .sect2ImageVertical1, .sect2ImageVertical2 {
+        height: 140vh;
+        width: 150%;
+        position: relative;
+        display: flex;
+    }
+    
+
+.divImage {
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divImagePara {
+    width: 90%;
+    height: 40%;
+}
+
+.pTitre {
+    font-size: 3rem;
+}
+
+.pPara2, .pPara1 {
+    width: 80%;
+}
+
+
+.divGrandPara{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.divMoyenPara{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.divPetitPara{
+    height: fit-content;
+    width: 25%;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .containerProduit {
+        height: 40vh;
+        width: 40%;
+        margin: 1rem 0;
+    }
+
+    .descriptionContainer{
+        height: 40%;
+    }
+
+    .sect2ArticleImageHorizontal2 {
+        height: 0;
+        width: 0;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .sect2ArticleImageHorizontal2:after {
+        background-color: transparent;
+    }
+
+    .sect2ArticleImageHorizontal1, .sect2ArticleImageVertical1, .sect2ArticleImageVertical2  {
+        height: 15rem;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border: solid;
+        border-width: 0.5rem;
+        border-radius: 25px;
+        box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.40);
+        margin: 0.5rem 0;
+    }
+
+    
+.sect2ArticleImageHorizontal1:after, .sect2ArticleImageVertical1:after, .sect2ArticleImageVertical2:after{
+    content: "";
+    height: 15rem;
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.sect2ImageHorizontal1, .sect2ImageVertical1, .sect2ImageVertical2 {
+    height: 125vh;
+    width: 120%;
+    position: relative;
+    display: flex;
+}
+
+.lifeStyle {
+    color: red;
+    font-size: 3rem;
+    height: 5rem;
+
+}
+
+h2 {
+    height: fit-content;
+    z-index: 42;
+    position: relative;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #37359E;
+}
+
+.sect2ArticleImageHorizontal2:after {
+    height: 0;
+    width: 0;
+}
+
+
+.divImage {
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.divImagePara {
+    width: 90%;
+    height: 40%;
+}
+
+.pTitre {
+    width: fit-content;
+    height: fit-content;
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    margin: 1rem;
+}
+
+.pPara2, .pPara1 {
+    width: 80%;
+}
+
+
+.divGrandPara{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.divMoyenPara{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.divPetitPara{
+    height: fit-content;
+    width: 25%;
+}
+} */
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #5a8962;
+}
+
+main {
+    width: 100%;
+    height: fit-content; 
+}
+
+.push {
+    width: 16rem;
+    height: 3rem;
+    background-color: #37359E;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 11rem;
+    padding: 0.5rem;
+    background-color: #F0FDBE;
+    font-size: x-large;
+    color: #A3AC81;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    border-style: none;
+    text-align: center;
+}
+
+.a1 {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: end;
+}
+
+h1 {
+    width: max-content;
+    height: 9rem;
+    color: #F0FDBE;
+    text-align: end;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: lighter;
+    font-size: 9rem;
+}
+
+h2 {
+    z-index: 42;
+    position: relative;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 9rem;
+    color: #37359E;
+}
+
+.para {
+    z-index: 42;
+    position: relative;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.plus {
+    height: 2rem;
+    width: 8rem;
+    padding-bottom: 0.5rem;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    margin-bottom: 8rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+    font-size: xx-large;
+    color: #F0FDBE;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.lifeStyle {
+    height: fit-content;
+    width: fit-content;
+    z-index: 69;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+    text-orientation: sideways;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #37359E;
+}
+
+.btnMoreProduct {
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDescriptionDiv1 {
+    height: 1rem;
+    width: 15rem;
+}
+
+.btnDescriptionDiv2 {
+    height: 1rem;
+    width: 15rem;
+}
+
+.btnDescription {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Advent Pro', sans-serif;
+    color: #F0FDBE;
+}
+
+.moreProductDiv {
+    height: fit-content;
+    width: fit-content;
+}
+
+.moreProduct {
+    height: 4rem;
+    width: 12rem;
+    background: linear-gradient(360deg, rgba(2,0,36,1) 15%, rgba(55,53,158,1) 50%);
+    border-radius: 20px;
+    font-size: xx-large;
+    color: #F0FDBE;
+    font-weight: 500;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.40);
+}
+
+.ipara {
+    z-index: 42;
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-position: 50%;
+    background-size: 110vh;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipara:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #00FD2B30;
+    position: absolute;
+    z-index: 1;
+}
+
+img {
+    width: 90vw;
+    height: 20vw;
+}
+
+.first-picture {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 150vw;
+}
+
+header {
+    background-color: #38543B;
+    width: 100%;
+    height: 10vh ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-nav {
+    background-size: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-self: center;
+    border-radius: 10px;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 30vw;
+    height: fit-content;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.contenaire {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article {
+    margin: 1.4%;
+    width: 18rem;
+    height: 14rem;
+    border-radius: 29px;
+    border: solid black 9px;
+    box-shadow: 0px 10px 50px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: flex-end;
+}
+
+.r1 {
+    background-image: url(dossierimgsneacker/converse-sneakers-pro-leather-hi-170240c-blanc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r2 {
+    background-image: url(dossierimgsneacker/puma-clyde-vintage.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r3 {
+    background-image: url(dossierimgsneacker/baskets-club-c-revenge-vintage-cuir-ch-reebok-chalk-royal.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r4 {
+    background-image: url(dossierimgsneacker/png-transparent-air-force-air-jordan-nike-sneakers-white-jordan-white-outdoor-shoe-sneakers.png);
+    background-size: 185%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r5 {
+    background-image: url(dossierimgsneacker/nike\ jordan.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r6 {
+    background-image: url(dossierimgsneacker/flowerMountain.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r7 {
+    background-image: url(dossierimgsneacker/convrse.jpg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r8 {
+    background-image: url(dossierimgsneacker/nike\ vintage.webp);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.major_art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.d1 {
+    transform: rotate(90deg);
+    width: 34rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33rem;
+}
+
+.prod {
+    width: 18rem;
+    height: 29rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grand {
+    width: 40rem;
+    height: 15vw;
+    background-image: url(dossierimgsneacker/addidas.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.grand2 {
+    width: 40rem;
+    height: 15vw;
+    background-image: url(dossierimgsneacker/birkenstockBlue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.r9 {
+    background-image: url(./dossierimgsneacker/veja.jpg);
+    background-size: 198%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r10 {
+    background-image: url(./dossierimgsneacker/golq.webp);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.r11 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./dossierimgsneacker/puma-vintage.jpg);
+    background-size: 193%;
+}
+
+.r12 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./dossierimgsneacker/nike\ jordan.webp);
+    background-size: 110%;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.d2 {
+    width: 100%;
+    height: fit-content;
+    background-image: url(./dossierimgsneacker/prairie.jpg);
+    background-position: center;
+    display: flex;
+}
+
+.please {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-size: 100%;
+}
+
+.l2 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.e1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.e2 {
+    width: 4vw;
+    height: 10vh;
+    margin: 10px;
+    border-radius: 51% 49% 48% 52% / 49% 48% 52% 51% ;
+}
+
+h4 {
+    width: 13vw;
+    height: 24vh;
+    font-size: medium;
+}
+
+.t1 {
+    width: 25vw;
+    height: 28vh;
+}
+
+.tired {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;   
+}
+
+.k1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k2 {
+    width: 5vw;
+    height: 10vh;
+    padding: 20px;
+}
+
+.divImagePara {
+    width: 50%;
+    height: fit-content ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.divGrandPara {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.divMoyenPara {
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divPetitPara {
+    height: fit-content;
+    width: 25%;
+}
+
+.petitParaTitre {
+    height: fit-content;
+    width: fit-content;
+}
+
+.n1 {
+    height: fit-content;
+    width: 100%;
+    color: white;
+    padding: 0;
+}
+
+.n2 {
+    height: fit-content;
+    width: fit-content;
+    list-style: none;
+}
+
+footer {
+    width: 100%;
+}
+
+.pTitre {
+    width: fit-content;
+    height: fit-content;
+    font-size: 4rem;
+    font-family: 'Advent Pro', sans-serif;
+    margin: 1rem;
+}
+
+.pPara1 {
+    width: 60%;
+    height: fit-content;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.pPara2 {
+    width: 60%;
+    height: fit-content;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    width: 100%;
+    height: 110px;
+}
+
+.footer-link-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-column a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+}
+
+.product-content {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.40);
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1, h2 {
+        font-size: 6rem;
+    }
+
+    .push {
+        width: 14rem;
+        height: 2.5rem;
+        margin: 2rem;
+    }
+
+    .plus {
+        width: 7rem;
+        height: 1.5rem;
+        font-size: x-large;
+        margin-bottom: 6rem;
+        margin-left: 2rem;
+    }
+
+    .moreProduct {
+        width: 10rem;
+        height: 3rem;
+        font-size: large;
+    }
+
+    .first-picture {
+        height: 60vh;
+        background-size: 200vw;
+    }
+
+    .grand, .grand2 {
+        width: 30rem;
+        height: 12vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 4rem;
+    }
+
+    .push {
+        width: 12rem;
+        height: 2rem;
+        margin: 1.5rem;
+    }
+
+    .plus {
+        width: 6rem;
+        height: 1.2rem;
+        font-size: large;
+        margin-bottom: 4rem;
+        margin-left: 1rem;
+    }
+
+    .moreProduct {
+        width: 8rem;
+        height: 2.5rem;
+        font-size: medium;
+    }
+
+    .first-picture {
+        height: 17rem;
+        background-size: 150vw;
+    }
+
+    .grand2 {
+        width: 93vw;
+        height: 13rem;
+    }
+
+    .grand {
+        width: 0;
+        height: 0;
+        border: 0;
+    }
+
+    .prod {
+        width: 93vw;
+          
+    }
+
+    .d1 {
+        height: 45rem;
+        width: fit-content;
+    }
+
+    h1 {
+        height: 5rem;
+    }
+
+    .lifeStyle {
+        font-size: 3rem;
+    }
+
+    header {
+        height: 4rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    .push {
+        width: 10rem;
+        height: 1.5rem;
+        margin: 1rem;
+    }
+
+    .plus {
+        width: 5rem;
+        height: 1rem;
+        font-size: medium;
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .moreProduct {
+        width: 6rem;
+        height: 2rem;
+        font-size: small;
+    }
+
+    .first-picture {
+        height: 17rem;
+        background-size: 200vw;
+    }
+
+    .grand2 {
+        width: 93vw;
+        height: 13rem;
+    }
+
+    .prod {
+        width: 93vw;
+        height: 13rem;  
+    }
+
+    .d1 {
+        height: 45rem;
+        width: 45rem;
+    }
+    
+    
+    .grand {
+
+        width: 0;
+        height: 0;
+        border: 0;
+    }
+
+    .btnMoreProduct {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .d2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divImagePara {
+        width: 100%;
+       
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        height: 5rem;
+    }
+
+    .lifeStyle {
+        font-size: 3rem;
+    }
+
+    header {
+        height: 4rem;
+    }
+
+    .r1 {
+        background-size: 129%;
+    }
+
+    .r2 {
+        background-size: 147%;
+    }
+
+    .r3 {
+        background-size: 185%;
+    }
+
+    .r4 {
+        background-size: 244%;
+    }
+
+    .r5 {
+        background-size: 115%;
+    }
+
+
+    .r6 {
+        background-size: 100%;
+    }
+
+    .r7 {
+        background-size: 234%;
+    }
+
+    .r8 {
+        background-size: 118%;
+    }
+
+    .r9 {
+        background-size: 252%;
+    }
+
+    .r10 {
+        background-size: 287%;
+    }
+
+    .r11 {
+        background-size: 218%;
+    }
+
+    .r12 {
+        background-size: 150%;
+    }
+
+    article {
+
+        width: 41vw;
+        height: 12rem;
+    }
+
+
+    .product-content {
+        height: 40%;
+    }
+
+    .e2 {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .k2 {
+        width: 3rem;
+        height: 2rem;
+    }
+}
